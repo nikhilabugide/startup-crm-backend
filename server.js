@@ -55,7 +55,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
   "http://localhost:5175",
-  "https://your-app.vercel.app"
+  "https://startup-crm-lite-ecru.vercel.app",
 ];
 
 app.use(cors({
