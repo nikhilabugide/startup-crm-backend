@@ -51,7 +51,11 @@ if (process.env.NODE_ENV === 'production') {
 // cors: Configures Cross-Origin Resource Sharing with production-grade configurations
 const allowedOrigins = [
   process.env.FRONTEND_URL,
-  'https://your-app.vercel.app'
+  "http://localhost:5176",
+  "http://localhost:5173",
+  "http://localhost:5174",
+  "http://localhost:5175",
+  "https://your-app.vercel.app"
 ];
 
 app.use(cors({
